@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Navbar from './Components/Navbar'
 import SectionOne from './Components/SectionOne'
+import SectionTwo from './components/SectionTwo'
+import Projects from './components/Projects'
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
     <>
       <Navbar/>
       <SectionOne/>
+      <SectionTwo/>
+      <Projects/>
     </>
   )
 }

@@ -8,5 +8,11 @@
 
 .doto{
     font-family: "Doto", sans-serif;
-    font-weight: 800;
+    font-weight: 600;
+    
+}
+.doto-bold{
+    font-family: "Doto", sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
 }

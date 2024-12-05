@@ -6,6 +6,7 @@ import SectionOne from './Components/SectionOne'
 import SectionTwo from './components/SectionTwo'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <SectionTwo/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </>
   )
 }

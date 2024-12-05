@@ -47,7 +47,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br bg-yellow-500  flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-br flex items-center justify-center p-6">
       <div className="w-full max-w-2xl">
         <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
           <div className="p-8 md:p-12">
@@ -122,7 +122,7 @@ const ContactForm = () => {
                 <button
                   type="submit"
                   disabled={sending}
-                  className="w-full bg-violet-600 hover:bg-violet-700 text-white font-orbitron tracking-wider py-4 rounded-xl transition-all duration-300 flex items-center justify-center space-x-2 disabled:opacity-70"
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-orbitron tracking-wider py-4 rounded-xl transition-all duration-300 flex items-center justify-center space-x-2 disabled:opacity-70"
                 >
                   {sending ? (
                     <div className="animate-spin rounded-full h-6 w-6 border-4 border-white border-t-transparent" />

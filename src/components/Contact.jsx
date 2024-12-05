@@ -3,9 +3,11 @@ import ContactForm from './GetInTouchForm'
 
 const Contact = () => {
   return (
-    <>
-    <div className='orbitron h-[100vh]'>
-        Contacts
+    <> 
+    <div className='bg-[#FFCE12] orbitron'>
+        <div className='flex items-center text-3xl tracking-wide justify-center'>
+            Contact Me
+        </div>
         <ContactForm/>
     </div>
     </>

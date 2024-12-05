@@ -5,7 +5,7 @@ import Card from './Card'
 const Projects = () => {
   return (
    <>
-    <div className='lg:flex lg:flex-col md:flex lg:h-[100vh] lg:w-[100vw]'>
+    <div className='lg:flex lg:flex-col md:flex lg:w-[100vw]'>
     <div className='orbitron tracking-wider sm:flex sm:justify-center text-4xl lg:flex lg:container lg:ml-[5rem] lg:mt-[5rem] lg:mb-[5rem]'>
         <motion.h1 className='cursor-pointer' whileHover={{scale:1.1} }>Projects</motion.h1>
     </div>

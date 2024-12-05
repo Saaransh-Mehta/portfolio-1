@@ -28,8 +28,8 @@ const SectionOne = () => {
       </div>
 
         </div>
-        <div className='sm:w-[50%] h-[100vh] lg:w-[50%] bg-yellow-500 sm:flex flex-col '>
-          <div className='lg:flex h-[50vh] lg:justify-center lg:items-center lg:text-4xl orbitron tracking-widest'>
+        <div className='sm:w-[50%] h-[100vh] lg:w-[50%] bg-[#FFCE32] sm:flex flex-col '>
+          <div className='lg:flex h-[50vh] lg:justify-center lg:items-center lg:text-4xl text-[#1D63FF] orbitron tracking-widest'>
             A fullStack Engineer
           </div>
           <div className="socials flex  justify-end mt-[10rem] mr-[3rem] orbitron">
